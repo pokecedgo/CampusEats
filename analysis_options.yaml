@@ -1,0 +1,12 @@
+# This file contains configuration options for the Dart analyzer.
+analyzer:
+  errors:
+    unused_import: warning
+    dead_code: warning
+    missing_return: error
+    unnecessary_this: warning
+  include:
+    - lib/**.dart
+  exclude:
+    - test/**.dart
+    - build/**

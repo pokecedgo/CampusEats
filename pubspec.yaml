@@ -1,0 +1,24 @@
+name: campuseats
+description: A Flutter project for Campus Eats application
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add other dependencies here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here if needed
+  # assets:
+  #   - assets/images/
