@@ -1,0 +1,75 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "campuseats-73325",
+          "appId": "1:1013568067759:android:134003dc8c142f3739dc5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "campuseats-73325",
+          "appId": "1:1013568067759:ios:5691660d2ff4b1a439dc5a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "campuseats-73325",
+          "appId": "1:1013568067759:ios:5691660d2ff4b1a439dc5a",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "campuseats-73325",
+          "configurations": {
+            "android": "1:1013568067759:android:134003dc8c142f3739dc5a",
+            "ios": "1:1013568067759:ios:5691660d2ff4b1a439dc5a",
+            "macos": "1:1013568067759:ios:5691660d2ff4b1a439dc5a",
+            "web": "1:1013568067759:web:db96ca25df95cc8b39dc5a",
+            "windows": "1:1013568067759:web:daf8fd7da4db330739dc5a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    },
+    {
+      "source": "campuseats",
+      "codebase": "campuseats",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Project Pre-Planning
+
+Firebase for Authentication and Database
+
+
+Upon Application Start 
+   (System checks if user is login already or not)
+
+   If login:
+      --go to home screen
+   else:
+    - user sees login screen
+
+
+    Upon Login, if correct: prompt authentication --> home screen
+
+    else: in authenticaiton state: --> wrong /timeout --> back to login screen
+
+
+App Features:
+    -- Theme: Hogwarts wallet app for its students
+    -- Displays all relevant data, etc.
+    -- Possible simulation of the data being changed so simulated meal swipes, etc.
+    

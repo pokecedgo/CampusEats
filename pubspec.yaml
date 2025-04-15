@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^3.12.1  # Updated to match firebase_auth requirements
+  firebase_auth: ^5.5.1  # Compatible with firebase_core ^3.12.1
+  cloud_firestore: ^3.1.0
+  cloud_functions: ^4.0.6
   # Add other dependencies here
 
 dev_dependencies:
@@ -20,5 +24,7 @@ flutter:
   uses-material-design: true
 
   # Add assets here if needed
-  # assets:
-  #   - assets/images/
+  assets:
+    - assets/hogwartsDining.jpg
+    - assets/Hogwartscrest.jpg
+    - assets/ravenclaw.jpg
